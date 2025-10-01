@@ -86,8 +86,11 @@ snat	     Configura NAT
 ## Configurar zonas (zones)
 - copiar el archivo, suponiendo que me encuentro en /etc/shorewall
   necesitas ejecutar los siguiente:
+  
   root@lattice:/etc/shorewall# cp /usr/share/doc/shorewall/examples/three-interfaces/zones .
+  
   root@lattice:/etc/shorewall# ls
+  
   conntrack  interfaces  params  shorewall.conf  zones
 
   editor zones
